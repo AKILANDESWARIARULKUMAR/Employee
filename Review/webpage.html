@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<style>
+    #forText {text-align: center; margin-top: 10%; color: white;}
+    #link {text-align: right; font-size: 20px; font-style: italic;}
+    #home{color: white;}
+    #contactus{color: white;}
+    #about{color: white;}
+    #help{color: white;}
+    #forCombo{text-align: center;}
+</style>
+<html>
+    <head>
+        <title>Registration form</title>
+    </head>
+    <div id = "link"> 
+        <a href ="" id ="home">Home</a>&nbsp;&nbsp;
+        <a href ="" id ="contactus">Contact Us</a>&nbsp;&nbsp;
+        <a href ="" id="about">About</a>&nbsp;&nbsp;
+        <a href ="" id="help">Help</a>
+    </div>
+    <div id= "forText">
+    <body background="3.jpg">
+        <h3>AGNI ORGANISATION</h3>
+        <h3>Employee Registration Form</h3>
+        <form action="employeedetails.html" method="post">
+                <label for="fname" >First name:</label>&nbsp;&nbsp;&nbsp;
+                <input type="text" id="fname" name="fname" size="23" height="40" required><br><br>
+                <label for="lname">Last name:</label>&nbsp;&nbsp;&nbsp;
+                <input type="text" id="lname" name="lname" size="23" height="40"><br><br>
+                <label for="email">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="email" name="email" size="23" height="40" required><br><br>
+                <label for="password">Password:</label>&nbsp;&nbsp;&nbsp;
+                <input type="password" id="password" name="password" size="23" height="40" required><br><br>
+                <label for="Gender">Gender:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                <input type="radio" name="Gender">transgender
+                <input type="radio" name="Gender">female
+                <input type="radio" name="Gender">male<br><br>
+                <label for="Designation">Designation:
+                <select id="designation" name="designation"><br><br>
+                    <option value="BusinessAnalyst">Business Analyst</option>
+                    <option value="DataAnalyst">Data Analyst</option>
+                    <option value="Developer">Sotware Developer</option>
+                    <option value="DevopsEngineer">Devops Engineer</option>
+                    <option value="QualityAnalyst">Quality Analyst</option>
+                </select>
+                </label><br><br>
+                <label for="Year Of Experience">Year Of Experience:
+                <select id="YearOfExperience" name="YearOfExperience"><br><br>
+                    <option value="Fresher">Fresher</option>
+                    <option value="One-TwoYear">1 - 2yrs</option>
+                    <option value="Two-ThreeYear">2 - 3yrs</option>
+                    <option value="Three-FourYear">3 -4yrs</option>
+                    <option value="AboveFour">Above 4</option>
+                </select>
+                </label><br><br>
+                <button type="submit" class="button">Submit</button>
+          </form>
+    </body>
+</div>
+</html>

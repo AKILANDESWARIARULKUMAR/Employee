@@ -1,1 +1,30 @@
-
+<!DOCTYPE html>
+<style>
+    #forText {text-align: center; margin-top: 20%;}
+    #header {font-size: 25px;}
+    .button
+    {
+        background-color: plum;
+        font-size: 18px;
+        text-align: center;
+        border: none;
+    }
+</style>
+<html>
+    <head>
+        <title>Login Form</title>  
+    </head>
+    <div id= "forText">
+        <h3 id="header">User Login</h3>
+        <body background ="2.jpg"> 
+        <form action = "webpage.html" method = "post">
+            <label for="UserName">User Name:</label>
+            <input type="text" id="UserName" name="UserName" size="23" height="40" required><br><br>
+            <label for="password">Password:</label>&nbsp;&nbsp;
+            <input type="password" id="password" name="password" size="23" height="40" required><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="submit" class="button">Submit </button>&nbsp;&nbsp;
+            <button type="reset" class="button">Reset </button>
+          </form>
+        </body>
+    </div>
+</html>
